@@ -1,0 +1,53 @@
+.modal-video{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(46, 43, 43, 0.932);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.modal-video.is-open{
+    display: flex;
+}
+
+.modal-container-video{
+    position: relative;
+    width: 70%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0,0,0,0.9);
+    padding: 20px;
+}
+
+.modal-video-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px){
+    .modal-video{
+        width: 100%;
+        height: 75%;
+    }
+
+    .modal-container-video{
+        padding: 2px;
+        width: 100%;
+        min-height: 70%;
+        padding-top: 10%;
+    }
+}

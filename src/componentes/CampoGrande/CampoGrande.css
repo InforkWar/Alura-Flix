@@ -1,0 +1,25 @@
+.areaTexto{
+    width: 100%;
+    height: 100px;
+    background-color: #53585D;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    padding: 20px;
+    color: #c2bebe;
+    resize: none;
+}
+
+.areaTexto::placeholder{
+    font-family: 'Roboto', sans-serif;
+    color: #c2bebe;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 0.8em;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.areaTexto:focus{
+    outline: none;
+}

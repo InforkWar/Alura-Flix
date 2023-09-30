@@ -1,0 +1,30 @@
+.contenedor-header{
+    background-color: #000000E5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0 40px;
+    border-bottom: 3px solid #2A7AE4
+}
+
+.logo{
+    width: 168.45px;
+    height: 40px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .contenedor-header{
+        flex-direction: column;
+        padding: 40px 0px;
+        height: auto;
+        width: 100%;
+    }
+
+    .logo{
+        margin-bottom: 20px;
+    }
+}
+

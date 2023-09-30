@@ -1,0 +1,15 @@
+.boton-nuevo{
+    width: 180.125px;
+    height: 54px;
+    color: white;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
